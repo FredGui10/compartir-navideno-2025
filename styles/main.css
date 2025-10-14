@@ -70,23 +70,43 @@ footer {
 }
 
 /* --- WhatsApp Section Styling --- */
+/* --- WhatsApp Section --- */
 .whatsapp-section {
   background: rgba(0, 0, 0, 0.6);
   border-radius: 15px;
-  padding: 20px;
+  padding: 25px 15px;
+  margin: 30px auto;
+  max-width: 600px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-  margin-top: 30px;
 }
 
 .qr-box {
-  background: rgba(0, 0, 0, 0.6);
-  border: 2px solid rgba(255, 255, 255, 0.6);
-  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
   display: inline-block;
-  padding: 12px;
-  margin-bottom: 15px;
+  padding: 10px;
+  margin: 15px 0;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.qr-image {
+  width: 180px;
+  border-radius: 10px;
+}
+
+.whatsapp-btn {
+  background: #d32f2f;
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.whatsapp-btn:hover {
+  background: #e74c3c;
 }
 
 .qr-box:hover {
