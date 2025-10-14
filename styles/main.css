@@ -73,6 +73,8 @@ footer {
 .whatsapp-section {
   margin-top: 30px;
   padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .qr-box {
@@ -91,7 +93,7 @@ footer {
 }
 
 .whatsapp-section a {
-  color: #00e676;
+  color: #ffffff;
   font-weight: bold;
   text-decoration: none;
 }
