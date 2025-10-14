@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anmeldeformular – Weihnachtliches Beisammensein 2025</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <header>
+    <h1>Anmeldeformular</h1>
+    <nav><a href="index-de.html">← Zurück</a></nav>
+  </header>
+
+  <main>
+    <form action="https://formspree.io/f/mzzjyzze" method="POST" id="register-form">
+      <label>Vollständiger Name:</label>
+      <input type="text" name="Name" required>
+
+      <label>Telefon (WhatsApp):</label>
+      <input type="tel" name="Telefon" required>
+
+      <label>E-Mail-Adresse:</label>
+      <input type="email" name="Email" required>
+
+      <label>Kinder, die teilnehmen (Name und Alter):</label>
+      <textarea name="Kinder" rows="3"></textarea>
+
+      <label>Wie möchtest du mithelfen?</label>
+      <select name="Beitrag">
+        <option value="essen">Essen mitbringen</option>
+        <option value="geschenke">Geschenke mitbringen</option>
+        <option value="organisation">Bei der Organisation helfen</option>
+        <option value="anderes">Anderes</option>
+      </select>
+
+      <input type="hidden" name="_subject" value="Neue Anmeldung – Weihnachtliches Beisammensein 2025">
+      <input type="hidden" name="_next" value="https://fredgui10.github.io/compartir-navideno-2025/thankyou.html">
+      <input type="hidden" name="_captcha" value="false">
+
+      <button type="submit">Anmeldung senden</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Vielen Dank für deine Teilnahme 💫</p>
+  </footer>
+</body>
+</html>

@@ -68,3 +68,55 @@ footer {
   color: #ddd;
   font-size: 0.9em;
 }
+
+/* --- WhatsApp Section Styling --- */
+.whatsapp-section {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.qr-box {
+  background: rgba(255, 255, 255, 0.15);
+  border: 3px solid #fff;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+.qr-image {
+  width: 160px;
+  border-radius: 10px;
+}
+
+.whatsapp-section a {
+  color: #00e676;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.whatsapp-section a:hover {
+  text-decoration: underline;
+}
+
+/* --- Responsive Mobile Design --- */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    background-attachment: scroll;
+  }
+
+  section, form {
+    width: 90%;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.6em;
+  }
+
+  .qr-image {
+    width: 120px;
+  }
+}
