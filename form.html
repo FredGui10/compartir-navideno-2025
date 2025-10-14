@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario de Registro – Compartir Navideño 2025</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <script src="scripts/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Formulario de Registro</h1>
+    <nav><a href="index.html">← Volver</a></nav>
+  </header>
+
+  <main>
+    <form action="https://formspree.io/f/mzzjyzze" method="POST" id="register-form">
+      <label>Nombre completo:</label>
+      <input type="text" name="Nombre" required>
+
+      <label>Teléfono (WhatsApp):</label>
+      <input type="tel" name="Teléfono" required>
+
+      <label>Correo electrónico:</label>
+      <input type="email" name="Email" required>
+
+      <label>Niños que asistirán (nombre y edad):</label>
+      <textarea name="Niños" rows="3"></textarea>
+
+      <label>Cómo deseas colaborar:</label>
+      <select name="Colaboración">
+        <option value="comida">Traer comida</option>
+        <option value="regalos">Traer regalos</option>
+        <option value="organización">Ayudar en la organización</option>
+        <option value="otro">Otro</option>
+      </select>
+
+      <input type="hidden" name="_subject" value="Nuevo registro – Compartir Navideño 2025">
+      <input type="hidden" name="_next" value="https://fredgui10.github.io/compartir-navideno-2025/thankyou.html">
+      <input type="hidden" name="_captcha" value="false">
+
+      <button type="submit">Enviar registro</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Gracias por participar 💫</p>
+  </footer>
+</body>
+</html>
