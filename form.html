@@ -15,32 +15,45 @@
 
   <main>
     <form action="https://formspree.io/f/mzzjyzze" method="POST" id="register-form">
-      <label>Nombre completo:</label>
-      <input type="text" name="Nombre" required>
+  <label>Nombre y Apellido:</label>
+  <input type="text" name="Nombre y Apellido">
 
-      <label>Teléfono (WhatsApp):</label>
-      <input type="tel" name="Teléfono" required>
+  <label>Teléfono (WhatsApp):</label>
+  <input type="tel" name="Teléfono">
 
-      <label>Correo electrónico:</label>
-      <input type="email" name="Email" required>
+  <label>Correo Electrónico:</label>
+  <input type="email" name="Email">
 
-      <label>Niños que asistirán (nombre y edad):</label>
-      <textarea name="Niños" rows="3"></textarea>
+  <div class="children-section">
+    <div class="child-inputs">
+      <label>Cantidad de Niños:</label>
+      <input type="number" name="Cantidad_Niños" min="0">
+      <label>Edad:</label>
+      <input type="text" name="Edad_Niños">
+    </div>
 
-      <label>Cómo deseas colaborar:</label>
-      <select name="Colaboración">
-        <option value="comida">Traer comida</option>
-        <option value="regalos">Traer regalos</option>
-        <option value="organización">Ayudar en la organización</option>
-        <option value="otro">Otro</option>
-      </select>
+    <div class="child-inputs">
+      <label>Cantidad de Niñas:</label>
+      <input type="number" name="Cantidad_Niñas" min="0">
+      <label>Edad:</label>
+      <input type="text" name="Edad_Niñas">
+    </div>
+  </div>
 
-      <input type="hidden" name="_subject" value="Nuevo registro – Compartir Navideño 2025">
-      <input type="hidden" name="_next" value="https://fredgui10.github.io/compartir-navideno-2025/thankyou.html">
-      <input type="hidden" name="_captcha" value="false">
+  <label>¿Deseas colaborar con algo?</label>
+  <select name="Colaboración">
+    <option value="">-- Selecciona una opción --</option>
+    <option value="comida">Traer comida</option>
+    <option value="regalos">Traer regalos</option>
+    <option value="organización">Ayudar en la organización</option>
+  </select>
 
-      <button type="submit">Enviar registro</button>
-    </form>
+  <input type="hidden" name="_subject" value="Nuevo registro – Compartir Navideño 2025">
+  <input type="hidden" name="_next" value="https://fredgui10.github.io/compartir-navideno-2025/thankyou.html">
+
+  <button type="submit">Enviar registro</button>
+</form>
+
   </main>
 
   <footer>
