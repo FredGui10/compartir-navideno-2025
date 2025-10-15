@@ -149,3 +149,13 @@ footer {
     width: 120px;
   }
 }
+/* --- Fix background on mobile devices --- */
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #0a2239; /* fallback blue if image doesn't fill */
+  }
+}
