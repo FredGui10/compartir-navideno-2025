@@ -159,3 +159,15 @@ footer {
     background-color: #0a2239; /* fallback blue if image doesn't fill */
   }
 }
+
+.qr-image {
+  width: 160px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.qr-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
